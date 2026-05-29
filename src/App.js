@@ -6,15 +6,6 @@ const PLANS = [
   { id: "pro", name: "Pro", credits: 50, price: 25.99, label: "Best value" },
 ];
 
-const PLATFORMS = {
-  "Poshmark": "#c13584",
-  "Depop": "#ff4040",
-  "eBay": "#e53238",
-  "ThredUp": "#4caf78",
-  "Vestiaire": "#1a1a2e",
-  "The RealReal": "#2c2c2c",
-};
-
 export default function ThreadValue() {
   const [credits, setCredits] = useState(3);
   const [image, setImage] = useState(null);
